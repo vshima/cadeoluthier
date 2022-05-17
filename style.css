@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inconsolata', monospace;
+    background-color: #AA6623;
+}
+
+header{
+    width: 100%;
+    height: 10vh;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.menu-inicio{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 30px;
+    width: 100%;
+    background-color: #463422;
+    position: absolute;
+    top: 0.01%;
+}
+
+.signin{
+    background: #F9C22E;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    padding: 6px 17px;
+    text-decoration: none;
+    color: #463422;
+}
+
+.signin:hover{
+    background: #fdd567;
+    transition: 0.3s;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+
+}
+
+.inicio-form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: #463422;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.8rem;
+    background: #B4D2DA;
+    border: 1px solid #000000;
+    box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    line-height: 4rem;
+    width: 280px;
+    height: 50px;
+    margin:auto;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+    background-color: #F9C22E;
+    border: 1px solid #000000;
+    box-shadow: 0px 10px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    width: 300px;
+    height: auto;
+    padding-top: 20px;
+}
+
+.form p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 29px;
+    text-align: center;
+    color: #463422;
+}
+
+fieldset{
+    border: 0;
+}
+
+input{
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    width: 230px;
+    height: 25px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 1rem;
+    font-weight: 300;
+    font-style: normal;
+    padding-left: 1.5%;
+}
+
+button{
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 8px;
+}
+
+.campo{
+    margin-bottom: 0.7rem;
+
+}
+
+.campo label{
+    display: block;
+    margin-bottom: 0.4rem;
+    color: #0C090D;
+
+}
+
+.informe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1.3rem;
+    width: 270px;
+    height: 180px;
+    background: #B4D2DA;
+    border: 1px solid #000000;
+    box-shadow: 0px 10px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    text-align: center;
+    margin-bottom: 10%;
+    padding: 1.5%;
+}
+
+.submit-btn{
+    display: block;
+    width: 100px;
+    height: 33px;
+    background: #B4D2DA;
+    border: 1px solid #000000;
+    box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    margin: 1.5rem 2rem 2rem 4rem;
+    font-family: 'Inconsolata', monospace;
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.rodape{
+    margin-top: 1rem;
+    background: #463422;
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
